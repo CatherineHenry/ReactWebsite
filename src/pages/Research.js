@@ -39,7 +39,7 @@ export const Research = () => {
                         <a target="_blank"
                            href=" https://scholarworks.boisestate.edu/as_14/39/"> https://scholarworks.boisestate.edu/as_14/39/</a>
                     </Typography>
-                    <a target="_blank" href="https://storage.googleapis.com/chenry-bucket/CiliatesResearchPoster.png">
+                    <a target="_blank" rel="noopener noreferrer" href="https://storage.googleapis.com/chenry-bucket/CiliatesResearchPoster.png">
                         <MyCardMedia
                             image={"https://storage.googleapis.com/chenry-bucket/CiliatesResearchPoster.png"}
                             title="Smart Dongle Research Poster"
@@ -60,7 +60,7 @@ export const Research = () => {
                         Marion Scheepers to investigate the security of the SmartDongle device produced by Microworks.
                     </Typography>
                     <a href="https://storage.googleapis.com/chenry-bucket/SmartDongleResearchPoster.png"
-                       target="_blank">
+                       rel="noopener noreferrer" target="_blank">
                         <MyCardMedia
                             image={"https://storage.googleapis.com/chenry-bucket/SmartDongleResearchPoster.png"}
                             title="Smart Dongle Research Poster"

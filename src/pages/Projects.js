@@ -24,7 +24,7 @@ export const Projects = () => {
             <Navbar/>
             <MyCard>
                 <SubtleText variant="h1">
-                CHECK BACK SOON
-            </SubtleText></MyCard>
+                    COMING SOON™
+                </SubtleText></MyCard>
         </FullPageWrapper>)
 }

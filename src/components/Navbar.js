@@ -1,5 +1,5 @@
 import React from 'react';
-import {Toolbar, List, ListItemText, ListItem, Card} from "@material-ui/core";
+import {Toolbar} from "@material-ui/core";
 import styled from "@material-ui/core/styles/styled";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";

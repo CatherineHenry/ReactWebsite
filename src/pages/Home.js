@@ -1,11 +1,12 @@
 import React from 'react';
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
-import {Card, Toolbar} from "@material-ui/core";
+import {Card} from "@material-ui/core";
 import photo from '../assets/static/images/photo_cropped2.jpg';
 import styled from "@material-ui/core/styles/styled";
 import {NavLink} from 'react-router-dom';
-import welcome from '../assets/static/images/welcome_cursive.png'
+import welcome from '../assets/static/images/welcome.png'
+import {FullPageWrapper} from "../components/FullPageWrapper";
 
 const MyButton = styled(Button)({
     color: 'white',
@@ -48,24 +49,23 @@ const ButtonBox = styled(Box)({
 const WelcomeImageBox = styled(Box)({
     display: 'flex',
     justifyContent: 'center',
-    height: '80%',
-    width: '80%'
 });
 
 export const Home = () => {
     return (
-        <Box>
+        <FullPageWrapper>
             <MyCard>
                 <ButtonBox>
+                    {/*TODO: causing console errors. find better solution*/}
                     <NavLink component={MyButton} to="/resume">Resume</NavLink>
                     <NavLink component={MyButton} to="/research">Research</NavLink>
                     <NavLink component={MyButton} to="/projects">Projects</NavLink>
                 </ButtonBox>
             </MyCard>
             <WelcomeImageBox>
-                <img src={welcome} alt="Welcome"/>
+                <object width="40%" title="welcome" type="image/png" data={welcome}/>
             </WelcomeImageBox>
-        </Box>
+        </FullPageWrapper>
 
     )
 };
