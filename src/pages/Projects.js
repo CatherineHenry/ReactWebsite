@@ -1,5 +1,5 @@
 import React from 'react'
-import {Footer} from "../components/Footer";
+import {Navbar} from "../components/Navbar";
 import {FullPageWrapper} from "../components/FullPageWrapper";
 import Card from "@material-ui/core/Card";
 import styled from "@material-ui/core/styles/styled";
@@ -21,10 +21,10 @@ const SubtleText = styled(Typography)({
 export const Projects = () => {
     return (
         <FullPageWrapper className="Projects">
+            <Navbar/>
             <MyCard>
                 <SubtleText variant="h1">
                 CHECK BACK SOON
             </SubtleText></MyCard>
-            <Footer/>
         </FullPageWrapper>)
 }

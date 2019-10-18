@@ -1,6 +1,6 @@
 import React from 'react';
 import {Home} from './pages/Home';
-import {Navbar} from "./components/Navbar";
+import {Header} from "./components/Header";
 import {Resume} from "./pages/Resume";
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
 import {Projects} from "./pages/Projects";
@@ -10,7 +10,7 @@ import {FullPageWrapper} from "./components/FullPageWrapper";
 export const App = () => {
     return (
         <FullPageWrapper>
-            <Navbar/>
+            <Header/>
             <Router>
             <Switch>
                 <Route exact path="/" component={Home}/>

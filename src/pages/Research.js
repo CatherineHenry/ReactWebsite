@@ -1,5 +1,5 @@
 import React from 'react';
-import {Footer} from "../components/Footer";
+import {Navbar} from "../components/Navbar";
 import {Card} from "@material-ui/core";
 import {FullPageWrapper} from "../components/FullPageWrapper";
 import styled from "@material-ui/core/styles/styled";
@@ -23,6 +23,8 @@ const MyCardMedia = styled(CardMedia)({
 
 export const Research = () => {
     return (<FullPageWrapper className="Research">
+        <Navbar/>
+
         <MyContainer>
             <Card>
                 <CardContent>
@@ -68,6 +70,5 @@ export const Research = () => {
 
         </MyContainer>
 
-        <Footer/>
     </FullPageWrapper>)
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
-import {Card} from "@material-ui/core";
+import {Card, Toolbar} from "@material-ui/core";
 import photo from '../assets/static/images/photo_cropped2.jpg';
 import styled from "@material-ui/core/styles/styled";
 import {NavLink} from 'react-router-dom';
