@@ -4,7 +4,7 @@ import styled from "@material-ui/core/styles/styled";
 import Typography from "@material-ui/core/Typography";
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import Box from "@material-ui/core/Box";
-import {NavLink, Router} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import Button from "@material-ui/core/Button";
 
 const Nav = styled(Toolbar)({
